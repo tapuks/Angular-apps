@@ -1,0 +1,9 @@
+.formulario {
+  width: 300px;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

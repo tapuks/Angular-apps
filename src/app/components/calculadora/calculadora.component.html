@@ -1,0 +1,34 @@
+<div class="container-calculadora">
+  <div class="calculadora">
+    <div class="calculadora_input">
+      <span>{{ variableConcat }}</span>
+    </div>
+
+    <div class="botones_numeros">
+      <button (click)="onClick($event)" value="1">1</button>
+      <button (click)="onClick($event)" value="2">2</button>
+      <button (click)="onClick($event)" value="3">3</button>
+      <button (click)="onClick($event)" value="4">4</button>
+      <button (click)="onClick($event)" value="5">5</button>
+      <button (click)="onClick($event)" value="6">6</button>
+      <button (click)="onClick($event)" value="7">7</button>
+      <button (click)="onClick($event)" value="8">8</button>
+      <button (click)="onClick($event)" value="9">9</button>
+      <button class="calculadora_fila-1" (click)="onClick($event)" value="0">0</button>
+    </div>
+
+
+
+    <div class="botones_calculos">
+      <button (click)="onClick($event)" value="+">+</button>
+      <button (click)="onClick($event)" value="-">-</button>
+      <button (click)="onClick($event)" value="*">*</button>
+      <button (click)="onClick($event)" value="/">/</button>
+      <button class="calculadora_fila-1" (click)="onSuma()">=</button>
+    </div>
+  </div>
+</div>
+<!-- -------------------------------------------------------- -->
+<div (click)="onClick2()">
+  {{ mensaje }}
+</div>

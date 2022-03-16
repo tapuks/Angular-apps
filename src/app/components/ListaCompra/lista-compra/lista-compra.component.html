@@ -1,0 +1,10 @@
+<div class="productos ">
+  <div class="producto card" *ngFor="let producto of productoRecibido; let indice = index">
+    <p>Nombre: {{producto.nombre}}</p>
+    <div>
+      <p>Cantidad x{{producto.cantidad}}</p>
+      <p>Departamento: {{producto.departamento}}</p>
+    </div>
+    <button class="btn btn-primary" (click)="onClick(indice)">Comprar</button>
+  </div>
+</div>

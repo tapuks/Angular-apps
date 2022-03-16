@@ -1,0 +1,17 @@
+.productos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.producto {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+}
+
+.producto div {
+  display: flex;
+  justify-content: space-between;
+}

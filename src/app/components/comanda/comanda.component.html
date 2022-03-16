@@ -1,0 +1,7 @@
+<h3>Comanda</h3>
+<h5>TOTAL {{precioTotal()}}€</h5>
+<div class="productos">
+  <div class="producto"  *ngFor="let producto of listaProductos; let indice= index">
+    <p>{{producto.nombre}} x {{producto.cantidad}} = {{producto.precio*producto.cantidad}}€ <button (click)="onClick(indice)">Eliminar</button></p>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+.formulario {
+  background-color: lightgoldenrodyellow;
+  height: 30vh;
+  padding: 50px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background: greenyellow;
+  /* margin-top: 20vh; */
+  cursor: pointer;
+}

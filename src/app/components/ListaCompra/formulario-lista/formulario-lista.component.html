@@ -1,0 +1,22 @@
+
+<div class="formulario">
+  <div class="form-group">
+    <label>Nombre</label>
+    <input type="text" [(ngModel)]="nuevaCosa.nombre">
+  </div>
+  <div class="form-group">
+    <label>Cantidad {{nuevaCosa.cantidad}}</label>
+    <input type="range" min="0" max="15" step="1" [(ngModel)]="nuevaCosa.cantidad">
+  </div>
+  <div class="form-group">
+    <label>Departamento</label>
+   <select [(ngModel)]="nuevaCosa.departamento">
+     <option value="carniceria">Carniceria</option>
+     <option value="fruteria">Fruteria</option>
+     <option value="hogar">Hogar</option>
+     <option value="panaderia">Panaderia</option>
+   </select>
+  </div>
+  <button class="btn btn-primary mt-2" (click)="onClick()">Enviar</button>
+
+</div>

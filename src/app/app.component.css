@@ -1,0 +1,41 @@
+.formulario {
+  width: 80%;
+  display: flex;
+  margin: 20px auto 0 auto;
+}
+.izquierda {
+  width: 70%;
+  padding: 10px;
+}
+.derecha {
+  width: 30%;
+  padding: 10px;
+}
+
+.container-caja-registradora {
+  display: flex;
+  margin: 20px auto 0 auto;
+  width: 70%;
+}
+h1 {
+  text-align: center;
+}
+
+.container-lista-compra {
+  width: 60%;
+  margin: 20px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-lista-compra .listas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.listas .izquierda,
+.listas .derecha {
+  width: 50%;
+}

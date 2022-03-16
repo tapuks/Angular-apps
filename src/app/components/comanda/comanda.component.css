@@ -1,0 +1,17 @@
+.productos {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+h3 {
+  text-transform: uppercase;
+  background-color: lightblue;
+  padding: 10px;
+}
+h5 {
+  padding-left: 10px;
+  font-size: 16px;
+}
+button {
+  cursor: pointer;
+}

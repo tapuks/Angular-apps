@@ -1,0 +1,16 @@
+<div class="cronometro" style="margin-top: 100px;">
+  <p>{{num}}</p>
+  <button (click)="onClick()">Empezar</button>
+</div>
+
+<div>
+  <select (change)="onChange($event)">
+    <option value="uno">Uno</option>
+    <option value="dos">Dos</option>
+    <option value="tres">Tres</option>
+  </select>
+</div>
+
+<div>
+  <input type="text" (input)="onInput($event)">
+</div>
